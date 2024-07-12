@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      for (let number = 1; number <= 100; number++) {
+        if (number % 15 === 0) {
+          document.getElementById("root").innerHTML += "FizzBuzz<br>";
+        } else if (number % 3 === 0) {
+          document.getElementById("root").innerHTML += "Fizz<br>";
+        } else if (number % 5 === 0) {
+          document.getElementById("root").innerHTML += "Buzz<br>";
+        } else {
+          document.getElementById("root").innerHTML += number + "<br>";
+        }
+      }
+    </script>
+  </body>
+</html>
