@@ -2,6 +2,8 @@ This repository is for a function that answers the following question:
 
 Given a string s and a dictionary of words dict, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
 
+Examples:
+
 ```
 > wordBreak("leetcode", ["leet", "code"])
 > true
