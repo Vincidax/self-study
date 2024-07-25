@@ -1,4 +1,4 @@
-This repository is for a function that answers the following question:
+This directory is for a function that answers the following question:
 
 Given a string s and a dictionary of words dict, determine if s can be segmented into a space-separated sequence of one or more dictionary words.
 
@@ -16,6 +16,6 @@ Examples:
 > true
 // "aaaaaaaa" can be segmented in multiple ways such as "aa aa aa aa" or "aaa aa aaa" where "aa" and "aaa" are in the dictionary.
 ```
-
+The answer is in the file wordBreak.js in this directory.
 
 Author: Vincent DUSHIME
