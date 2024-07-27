@@ -1,0 +1,20 @@
+function wordBreak(s, dict) {
+  let str = s;
+  for (let i = 0; i < dict.length; i++) {
+    //create a new word from dictionary
+    let word = dict[i];
+
+    //creating a regular expression from dictionary
+    let regex = new RegExp(word, "g");
+
+    //Replacing the found pattern with an empty string
+    str = str.replace(regex, "");
+  }
+  if (str === "") {
+    // if the string is empty, segmentation succeeded
+    return true;
+  } else {
+    // if the string is not empty, segmentation failed
+    return false;
+  }
+}

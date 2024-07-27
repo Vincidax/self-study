@@ -1,0 +1,1 @@
+let pattern_1 = RegExp((ca)[rt]?);
