@@ -1,0 +1,17 @@
+apikey
+
+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
+
+$headers = @{
+    "Authorization" = "Bearer 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"
+    "Content-Type" = "application/json"
+}
+
+$body = @{
+    "personalizations" = @(@{ "to" = @(@{ "email" = "vincentdx18@gmail.com" }) })
+    "from" = @{ "email" = "vincentdx18@gmail.com" }
+    "subject" = "Test Email"
+    "content" = @(@{ "type" = "text/plain"; "value" = "Hello, this is a test email!" })
+}
+
+Invoke-WebRequest -Uri "https://api.sendgrid.com/v3/mail/send" -Method POST -Headers $headers -Body ($body | ConvertTo-Json -Depth 10)
