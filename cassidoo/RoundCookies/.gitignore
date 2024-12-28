@@ -1,0 +1,19 @@
+# Ignore all .log files
+*.log
+
+# Ignore Node.js dependencies
+node_modules/
+
+# Ignore Python cache files
+__pycache__/
+
+# Ignore compiled files
+*.class
+
+# Ignore build directories
+dist/
+build/
+
+# Ignore sensitive files
+.env
+.DS_Store
