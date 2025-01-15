@@ -1,7 +1,0 @@
-{
-  "dependencies": {
-    "date-names": "^0.1.13",
-    "ini": "^4.1.3",
-    "ordinal": "^1.0.3"
-  }
-}
