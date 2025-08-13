@@ -1,1 +1,49 @@
+.small-heading {
+  text-transform: uppercase;
+}
 
+#quote-by-author {
+  background: lightgrey;
+  padding: 10px;
+  line-height: 1.75;
+}
+
+article p {
+  line-height: 2;
+}
+.list > li {
+  color: crimson;
+}
+
+.list > li ul {
+  color: initial;
+}
+
+header + p {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+header ~ img {
+  border: 4px solid crimson;
+}
+
+a:link {
+  color: #1d70b8;
+}
+a:visited {
+  color: #4c2c92;
+}
+a:hover {
+  color: #003078;
+}
+a:focus {
+  outline: solid 1px crimson;
+}
+
+header + p::first-letter {
+  color: crimson;
+  font-style: italic;
+}
+* {
+  font-family: sans-serif;
+}
