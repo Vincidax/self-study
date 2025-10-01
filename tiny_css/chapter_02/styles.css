@@ -11,6 +11,7 @@ body {
 
 main {
   display: grid;
+  grid-template-columns: repeat(2, minmax(auto, 1fr) 250px);
   margin: 24px;
 }
 
