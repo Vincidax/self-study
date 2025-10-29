@@ -16,3 +16,16 @@ class Album(models.Model):
     name = models.CharField(max_length=100)
     release_date = models.DateField()
     num_stars = models.IntegerField()
+
+class Shirt(models.Model):
+    SHIRT_SIZES = {
+        "S": "Small",
+        "M": "Medium",
+        "L": "Large",
+    }
+    name = models.CharField(max_length=60)
+    shirt_size = models.CharField(max_length=1, choices=SHIRT_SIZES)
+
+class Fruit(models.Model):
+    name = models.CharField(max_length=100, primary_key=True)
+
