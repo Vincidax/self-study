@@ -1,0 +1,12 @@
+:root {
+  --backup-bg-color: teal;
+}
+.component .header {
+  color: var(--header-color, blue);
+}
+.component .text {
+  color: var(--text-color, black);
+}
+.component {
+  --text-color: #008800;
+}
