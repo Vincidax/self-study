@@ -1,4 +1,6 @@
-import BearBox from "./components/BearBox";
+import { CatBox } from "./components/CatBox";
+import { CatBox2 } from "./components/CatBox2";
+import { CatController } from "./components/catController";
 import "./index.css";
 
 function App() {
@@ -6,7 +8,9 @@ function App() {
     <div className="container">
       <h1>Zustand tutorial</h1>
       <div>
-        <BearBox />
+        <CatBox />
+        <CatBox2 />
+        <CatController />
       </div>
     </div>
   );

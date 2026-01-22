@@ -1,11 +1,10 @@
-import React from "react";
 import useBearStore from "../stores/bearStores";
 
 const BearBox = () => {
-  const bears = useBearStore((state) => state.bears);
-  const increasePopulation = useBearStore((state) => state.increasePopulation);
-  const removeAllBears = useBearStore((state) => state.removeAllBears);
-
+  // const bears = useBearStore((state) => state.bears);
+  // const increasePopulation = useBearStore((state) => state.increasePopulation);
+  // const removeAllBears = useBearStore((state) => state.removeAllBears);
+  const { bears, increasePopulation, removeAllBears } = useBearStore();
   return (
     <div className="box">
       <h1>BearBox</h1>
